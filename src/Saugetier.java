@@ -10,6 +10,12 @@ abstract class Saugetier {
     }
     public Saugetier(){}
 
+    public Saugetier(int alter, String geschlecht)
+    {
+        setAlter(alter);
+        setGeschlecht(geschlecht);
+    }
+
 
     public String getGeschlecht() {
         return geschlecht;
