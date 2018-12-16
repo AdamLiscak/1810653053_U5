@@ -20,13 +20,18 @@ public class Aufgabe4 {
     public static boolean compare(String[] a)
     {
         boolean c=false;
-        for(int i=0;i<a.length;i++)
+
+        for (int i = 0; i < a.length; i++)
         {
-            if (((i!=2)&&a[i].equals(a[i+1]))||(i==2&&a[i].equals(a[0])))
+            for (int j = i + 1; j < a.length; j++)
             {
-                c=true;
+                if (a[i].equals(a[j]))
+                {
+c=true;
+                }
             }
         }
         return c;
     }
+
 }
