@@ -10,7 +10,7 @@
             return "Mein Auto hat "+getPs()+" PS und fährt mit 0 km/h";
         }
 
-        public Auto(short reifen, String farbe, short ps, Short tueren, boolean gestartet, short geschwindigkeit, boolean klimaanlage, short airbags)
+        public Auto(short reifen, Color farbe, short ps, Short tueren, boolean gestartet, short geschwindigkeit, boolean klimaanlage, short airbags)
         {
             super(reifen, farbe, ps, tueren, gestartet, geschwindigkeit);
             this.klimaanlage = klimaanlage;

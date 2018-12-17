@@ -2,14 +2,14 @@
     public class Fahrzeug
     {
         private short reifen;
-        private String farbe;
+        private Color farbe;
         private short ps;
         private Short tueren;
         private boolean gestartet;
         private short geschwindigkeit;
         private static int anzahl=0;
 
-        public Fahrzeug(short reifen, String farbe, short ps, Short tueren, boolean gestartet, short geschwindigkeit)
+        public Fahrzeug(short reifen, Color farbe, short ps, Short tueren, boolean gestartet, short geschwindigkeit)
         {
             this.reifen = reifen;
             this.farbe = farbe;
@@ -48,11 +48,11 @@
             this.tueren = tueren;
         }
 
-        public String getFarbe() {
+        public Color getFarbe() {
             return farbe;
         }
 
-        public void setFarbe(String farbe) {
+        public void setFarbe(Color farbe) {
             this.farbe = farbe;
         }
 
