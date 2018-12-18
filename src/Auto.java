@@ -1,9 +1,11 @@
         public class Auto extends Fahrzeug implements Comparable<Auto>  {
         private boolean klimaanlage;
         private short airbags;
-        public Auto()
+
+            public Auto()
         {
             super();
+            setFarbe(Color.BLACK);
         }
         public String toString()
         {
