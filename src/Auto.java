@@ -59,6 +59,6 @@
     public int compareTo(Auto auto)
     {
             int newPs = auto.getPs();
-        return this.getPs()-newPs;
+        return newPs-this.getPs();
     }
 }
